@@ -164,7 +164,19 @@ parent. */
 .div-4-container {
     border: solid 1px green; /* To see boxes */
     height: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.action-container {
+    display: flex;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 20px;
+}
+
+
 
 .footer-container {
 
