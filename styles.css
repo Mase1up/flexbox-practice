@@ -39,7 +39,7 @@
 /* Display div boxes */
 /* .div-1-container div, */
 /* .div-2-continer div, */
-.div-3-container div,
+/* .div-3-container div, */
 .div-4-container div{
     border: solid 1px red;
 }
@@ -141,6 +141,24 @@ parent. */
 .div-3-container {
     border: solid 1px blue; /* To see boxes */
     height: 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+.quote {
+    max-width: 400px;
+    font-style: italic;
+}
+
+.signature {
+    max-width: 400px;
+    text-align: end;
+    font-size: 12px;
+    font-weight: bold;
 }
 
 .div-4-container {
