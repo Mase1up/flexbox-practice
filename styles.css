@@ -10,12 +10,13 @@
     /* border: solid 1px cyan; To see boxes */
     height: 50px;
     background-color: #1F2937;
+    padding: 0 60px;
 }
 
 /* Display div boxes */
 .header-container div{
     /* border: solid 1px red; */
-    padding: 10px;
+    margin: 10px;
 }
 
 .header-container {
