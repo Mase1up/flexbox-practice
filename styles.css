@@ -7,14 +7,14 @@
 
 .header-container,
 .footer-container {
-    border: solid 1px cyan; /* To see boxes */
+    /* border: solid 1px cyan; To see boxes */
     height: 50px;
     background-color: #1F2937;
 }
 
 /* Display div boxes */
 .header-container div{
-    border: solid 1px red;
+    /* border: solid 1px red; */
     padding: 10px;
 }
 
@@ -36,15 +36,15 @@
 }
 
 /* Display div boxes */
-.div-1-container div,
-.div-2-container div,
+/* .div-1-container div, */
+/* .div-2-continer div, */
 .div-3-container div,
 .div-4-container div{
-    /* border: solid 1px red; */
+    border: solid 1px red;
 }
 
 .div-1-container {
-    border: solid 1px red; /* To see boxes */
+    /* border: solid 1px red; To see boxes */
     background-color: #1F2937;
     color: #F9FAF8;
     height: 175px;
@@ -98,6 +98,43 @@ parent. */
 .div-2-container {
     border: solid 1px black; /* To see boxes */
     height: 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-title {
+    
+}
+
+.main-images-container {
+    display: flex;
+    height: 110px;
+    width: 100vw;
+    justify-content: center;
+    gap: 25px;
+
+}
+
+.image-container {
+    height: 110px;
+    width: 75px;
+}
+
+.main-image {
+    height: 75px;
+    width: 75px;
+    border: 2px solid #3882F6;
+    border-radius: 7px;
+    /* background-color: #3882F6; For debugging */
+
+}
+
+.main-image-caption {
+    font-size: 10px;
+    color: #1F2937;
+    text-align: center;
 }
 
 .div-3-container {
