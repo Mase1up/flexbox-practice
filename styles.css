@@ -97,7 +97,7 @@ parent. */
     background-color: grey;
 }
 .div-2-container {
-    border: solid 1px black; /* To see boxes */
+    /* border: solid 1px black; To see boxes */
     height: 175px;
     display: flex;
     flex-direction: column;
@@ -139,7 +139,7 @@ parent. */
 }
 
 .div-3-container {
-    border: solid 1px blue; /* To see boxes */
+    /* border: solid 1px blue; To see boxes */
     height: 175px;
     display: flex;
     flex-direction: column;
