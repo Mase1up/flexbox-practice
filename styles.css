@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-container,
+.footer-container {
+    border: solid 1px cyan; /* To see boxes */
+    height: 50px
+}
+
+/* Display div boxes */
+.header-container div{
+    border: solid 1px red;
+    padding: 10px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+}
+
+/* Display div boxes */
+.div-1-container div,
+.div-2-container div,
+.div-3-container div,
+.div-4-container div{
+    border: solid 1px red;
+}
+
+.div-1-container {
+    border: solid 1px red; /* To see boxes */
+    height: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* I want to be able to set sizing based off
+the parent container.  Like 50vw but for the
+parent. */
+
+.header-text-container {
+    height: 150px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-image-container {
+    height: 150px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-2-container {
+    border: solid 1px black; /* To see boxes */
+    height: 175px;
+}
+
+.div-3-container {
+    border: solid 1px blue; /* To see boxes */
+    height: 175px;
+}
+
+.div-4-container {
+    border: solid 1px green; /* To see boxes */
+    height: 175px;
+}
+
+.footer-container {
+
+}
