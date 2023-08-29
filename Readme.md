@@ -9,3 +9,7 @@ I'm going to finish up making the page appear like the picture, but I want to ex
 Probably go back and check what Odin/IIH had me do, and take note of how they manage containers with respect to sizing to allow for things to properly shrink and grow.
 
 I don't think it was working how I'd have liked even when I was using 25vw for height anyway, so needed to look at this no matter what.
+
+Overall:
+    Just realized if I used one container for the whole page I could see a global margin, although I could just do that in the first * { } too maybe?
+
