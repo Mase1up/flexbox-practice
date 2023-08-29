@@ -2,12 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif
 }
 
 .header-container,
 .footer-container {
     border: solid 1px cyan; /* To see boxes */
-    height: 50px
+    height: 50px;
+    background-color: #1F2937;
 }
 
 /* Display div boxes */
@@ -22,7 +24,14 @@
     align-items: center;
 }
 
+.header-logo {
+    color: #F9FAF8;
+    font-size: 16px;
+}
+
 .links {
+    color: #E5E7EB;
+    font-size: 12px;
     display: flex;
 }
 
@@ -31,11 +40,13 @@
 .div-2-container div,
 .div-3-container div,
 .div-4-container div{
-    border: solid 1px red;
+    /* border: solid 1px red; */
 }
 
 .div-1-container {
     border: solid 1px red; /* To see boxes */
+    background-color: #1F2937;
+    color: #F9FAF8;
     height: 175px;
     display: flex;
     justify-content: center;
@@ -51,7 +62,29 @@ parent. */
     width: 300px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+}
+
+.header-text-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.header-text-body {
+    font-size: 14px;
+}
+
+.button {
+    width: 85px;
+    height: 22px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 5px;
+    border: none;
+}
+
+.header-text-button {
+
 }
 
 .header-image-container {
@@ -60,6 +93,7 @@ parent. */
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: grey;
 }
 .div-2-container {
     border: solid 1px black; /* To see boxes */
