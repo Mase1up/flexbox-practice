@@ -13,3 +13,7 @@ I don't think it was working how I'd have liked even when I was using 25vw for h
 Overall:
     Just realized if I used one container for the whole page I could see a global margin, although I could just do that in the first * { } too maybe?
 
+30-Aug-23:
+I finished making it look like the page, but I'm very unhappy with the usability.  Almost nothing is responsive, but I used flexbox like a neanderthal with a rock as a hammer to make things look the way I wanted.
+
+On to the next lesson.

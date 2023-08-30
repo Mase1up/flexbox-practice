@@ -40,9 +40,8 @@
 /* .div-1-container div, */
 /* .div-2-continer div, */
 /* .div-3-container div, */
-.div-4-container div{
-    border: solid 1px red;
-}
+/* .div-4-container div{ */
+    /* border: solid 1px red; */
 
 .div-1-container {
     /* border: solid 1px red; To see boxes */
@@ -162,7 +161,7 @@ parent. */
 }
 
 .div-4-container {
-    border: solid 1px green; /* To see boxes */
+    /* border: solid 1px green; To see boxes */
     height: 175px;
     display: flex;
     justify-content: center;
@@ -170,14 +169,45 @@ parent. */
 }
 
 .action-container {
+    max-width: 600px;
     display: flex;
+    justify-content: space-between;
     background-color: #3882F6;
     color: #F9FAF8;
     padding: 20px;
+    
+}
+
+.action-text-title {
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.action-text {
+    font-size: 10px;
+    margin-right: 30px;
+}
+
+.action-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-button {
+    border: 1px solid #F9FAF8;
 }
 
 
 
 .footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+    color: #F9FAF8;
+    font-size: 13px;
+    height: 60px;
+    
 }
